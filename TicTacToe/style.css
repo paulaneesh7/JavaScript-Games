@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* to change the default 1rem == 16px to 1rem == 10 */
+    /* font-size: 10px; */
+
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    /* overflow-x: hidden;
+    scroll-behavior: smooth; */
+}
+
+
+.background{
+    background-color: #12181B;
+    height: 100vh;
+    padding-top: 1rem;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 10%;
+}
+
+.display{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile{
+    border: 1px solid #fff;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+.playerX{
+    color: #09C372;
+}
+
+.playerO{
+    color: #498AFB;
+}
+
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.controls button{
+    color: #fff;
+    padding: .8rem;
+    border-radius: .8rem;
+    border: none;
+    font-size: 2rem;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
+.restart{
+    background-color: #498AFB;
+}
+
+#reset{
+    background-color: #FF3860;
+}
+
+#reset:hover{
+    border: 3px solid #FF3860;
+    border-radius: .8rem;
+    color: #FF3860;
+    background-color: #fff;
+}
