@@ -8,3 +8,6 @@ This repository contains some mini games implemented through JavaScript for lear
 
 https://user-images.githubusercontent.com/126695924/228947535-d0019a56-293f-4a1e-b0ca-16d7ab918908.mp4
 
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
